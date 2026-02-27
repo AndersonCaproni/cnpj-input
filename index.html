@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNPJ Alfanumérico</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="card">
+        <p class="card-title">Cadastro · CNPJ</p>
+
+        <div class="badge">
+            <span class="badge-dot"></span>
+            Novo formato 2026
+        </div>
+
+        <div class="field-wrap" id="fieldWrap">
+            <input type="text" id="cnpj" placeholder="CNPJ" maxlength="18" autocomplete="off" spellcheck="false" />
+            <label for="cnpj">CNPJ</label>
+
+            <span class="field-icon" id="fieldIcon">
+            </span>
+        </div>
+
+        <div class="field-progress">
+            <div class="field-progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="field-hint" id="fieldHint"></div>
+
+        <button class="btn-submit" id="btnSubmit" disabled onclick="handleSubmit()">
+            Validar CNPJ
+        </button>
+    </div>
+
+    <script src="cnpj.js"></script>
+    <script src="cnpj_input.js"></script>
+</body>
+
+</html>

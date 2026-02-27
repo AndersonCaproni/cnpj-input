@@ -34,7 +34,7 @@ Basta abrir o `index.html` no navegador. Os arquivos precisam estar na mesma pas
 
 Para integrar em outro projeto, importe os scripts na ordem correta:
 
-```head
+```html
 <link href="style.css" rel="stylesheet">
 ```
 

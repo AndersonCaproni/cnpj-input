@@ -21,6 +21,11 @@
             Novo formato 2026
         </div>
 
+        <div class="format-toggle">
+            <button class="format-btn" onclick="setFormat('alfanumerico_es5', this)">Versão ES5 JavaScript</button>
+            <button class="format-btn active" onclick="setFormat('alfanumerico_es6', this)">Versão ES6 JavaScript</button>
+        </div>
+
         <div class="field-wrap" id="fieldWrap">
             <input type="text" id="cnpj" placeholder="CNPJ" maxlength="18" autocomplete="off" spellcheck="false" />
             <label for="cnpj">CNPJ</label>
@@ -40,7 +45,8 @@
         </button>
     </div>
 
-    <script src="cnpj.js"></script>
+    <script src="cnpj_ES5.js"></script>
+    <script src="cnpj_ES6.js"></script>
     <script src="cnpj_input.js"></script>
 </body>
 
